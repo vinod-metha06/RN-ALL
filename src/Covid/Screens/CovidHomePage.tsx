@@ -18,9 +18,11 @@ const CovidHomePage = () => {
   const [text, setText] = useState('');
 
   const [state, dispatch] = useReducer(reducer, initailState);
+
   useEffect(() => {
 
   }, [state]);
+  
 //   console.log('called');
 //   console.log(d);
 
